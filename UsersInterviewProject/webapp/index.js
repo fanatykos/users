@@ -1,5 +1,5 @@
-var inputFileHTTP = 'http://localhost:8080/users/inputfile.html';
-var usersTableHTTP = 'http://localhost:8080/users/userstable.html';
+var inputFileHTTP = 'inputfile.html';
+var usersTableHTTP = 'userstable.html';
 
 function showInputFilePage() {
 	window.location.href = inputFileHTTP;
@@ -16,5 +16,5 @@ document.getElementById('showInputFilePage').addEventListener('click',
 
 document.getElementById('showUsersTablePage').addEventListener('click',
 		function() {
-			showUsersTablePage()
+			showUsersTablePage();
 		});

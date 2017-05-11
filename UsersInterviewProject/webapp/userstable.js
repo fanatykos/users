@@ -1,4 +1,4 @@
-var outputHttp = "http://localhost:8080/users/output";
+var outputHttp = "output";
 var usersData = [];
 
 function getData() {

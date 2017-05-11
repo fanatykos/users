@@ -1,5 +1,5 @@
-var inputServletHttp = "http://localhost:8080/users/input";
-var usesTableHttp = "http://localhost:8080/users/userstable.html";
+var inputServletHttp = "input";
+var usesTableHttp = "userstable.html";
 var alertMessage = "Liczba dodanych użytkowników: ";
 
 var _validFileExtensions = [ ".xml" ];
